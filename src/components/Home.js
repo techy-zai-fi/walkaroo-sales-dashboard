@@ -13,7 +13,7 @@ const generateSalesData = (days) => {
 };
 
 const generateProductData = () => {
-  const products = ['Running Shoes', 'Sneakers', 'Boots', 'Sandals', 'Loafers'];
+  const products = ['Shoes', 'Sandals & Clogs', 'Flip-Flops & Slides', 'Bounceez', 'John Taylor'];
   return products.map(product => ({
     name: product,
     sales: Math.floor(Math.random() * 5000) + 1000,
@@ -242,8 +242,8 @@ const Dashboard = () => {
       {/* Header and KPIs */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
         {[
-          { title: "Total Sales", value: `$${totalSales.toLocaleString()}` },
-          { title: "Average Order Value", value: `$${averageOrderValue.toFixed(2)}` },
+          { title: "Total Sales", value: `₹${totalSales.toLocaleString()}` },
+          { title: "Average Order Value", value: `₹${averageOrderValue.toFixed(2)}` },
           { title: "Top Selling Product", value: topSellingProduct },
           { title: "Best Performing Outlet", value: bestPerformingOutlet }
         ].map((item, index) => (
