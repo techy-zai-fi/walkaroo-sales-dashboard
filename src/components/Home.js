@@ -48,110 +48,110 @@ const generateSalesDrivers = () => {
 const generateSWOTData = (storeName) => {
   const swotData = {
     'Thanjavur': {
-      strengths: [
+      Strengths: [
         'Prime location in fashion district',
         'High foot traffic',
         'Diverse customer base',
       ],
-      weaknesses: [
+      Weaknesses: [
         'High operational costs',
         'Limited storage space',
         'Intense local competition',
       ],
-      opportunities: [
+      Opportunities: [
         'Collaborate with local designers',
         'Expand luxury shoe line',
         'Implement virtual try-on technology',
       ],
-      threats: [
+      Threats: [
         'Rising rent prices',
         'Online shopping trend',
         'Seasonal weather affecting foot traffic',
       ],
     },
     'Coimbatore': {
-      strengths: [
+      Strengths: [
         'Strong celebrity endorsements',
         'Trendsetting reputation',
         'Excellent social media presence',
       ],
-      weaknesses: [
+      Weaknesses: [
         'Dependency on seasonal trends',
         'High marketing expenses',
         'Inconsistent supply chain',
       ],
-      opportunities: [
+      Opportunities: [
         'Expand into athleisure market',
         'Partner with local sports teams',
         'Develop eco-friendly shoe line',
       ],
-      threats: [
+      Threats: [
         'Fast-changing fashion trends',
         'Increasing competition from online retailers',
         'Economic downturns affecting luxury purchases',
       ],
     },
     'Chennai': {
-      strengths: [
+      Strengths: [
         'Strong presence in business district',
         'Loyal customer base',
         'Efficient inventory management',
       ],
-      weaknesses: [
+      Weaknesses: [
         'Limited appeal to younger demographics',
         'Underperforming e-commerce platform',
         'Lack of innovative designs',
       ],
-      opportunities: [
+      Opportunities: [
         'Expand work-from-home comfort shoe line',
         'Implement loyalty program',
         'Collaborate with local artists for unique designs',
       ],
-      threats: [
+      Threats: [
         'Shift to casual work attire',
         'Increasing popularity of sneaker culture',
         'Harsh winters affecting in-store traffic',
       ],
     },
     'Trichy': {
-      strengths: [
+      Strengths: [
         'Strong partnerships with local businesses',
         'Diverse product range',
         'Excellent customer service',
       ],
-      weaknesses: [
+      Weaknesses: [
         'Limited brand recognition',
         'Inconsistent marketing strategy',
         'High employee turnover',
       ],
-      opportunities: [
+      Opportunities: [
         'Expand into outdoor and work boot market',
         'Implement AR for virtual fittings',
         'Develop partnerships with local sports teams',
       ],
-      threats: [
+      Threats: [
         'Increasing competition from big-box retailers',
         'Economic fluctuations in oil industry affecting sales',
         'Extreme weather events disrupting operations',
       ],
     },
     'Madurai': {
-      strengths: [
+      Strengths: [
         'Specialization in hot weather footwear',
         'Strong online presence',
         'Efficient distribution center',
       ],
-      weaknesses: [
+      Weaknesses: [
         'Limited winter shoe selection',
         'Dependency on tourism',
         'Lack of brand loyalty',
       ],
-      opportunities: [
+      Opportunities: [
         'Expand into hiking and outdoor adventure shoes',
         'Develop sun-protective footwear line',
         'Partner with local resorts and spas',
       ],
-      threats: [
+      Threats: [
         'Increasing competition from sports brands',
         'Seasonal fluctuations in sales',
         'Water scarcity affecting production',
